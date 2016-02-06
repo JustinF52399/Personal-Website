@@ -69,7 +69,6 @@
    color: lime;
    text-align: center;
    position: relative;
-   margin-top: 30px;
    top: 50%;
    transform: translateY(-50%);
  }
