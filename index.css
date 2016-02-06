@@ -57,13 +57,34 @@
    color: white;
  }
  .about {
-   position: relative;
+   color: lime;
+   text-align: center;
    width: 100%;
    height: 905px;
+   position: relative;
+   background: url("img/CarbonFiber.png") 0px 0px no-repeat;
+   background-size: 100%;
  }
  .bio {
-   text-align: justify;
+   color: lime;
+   text-align: center;
+   position: relative;
+   margin-top: 30px;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+ .aboutPicture {
+   width: 300px !important;
    position: relative;
    top: 50%;
    transform: translateY(-50%);
+   left: 15%;
+   transform: translateZ(-15%);
+   border-style: solid !important;
+   border-radius: 30% !important;
+   border-color: white !important;
+ }
+ .skills {
+   display: table;
+   margin: 0px 35%;
  }
