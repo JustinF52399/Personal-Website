@@ -1,3 +1,8 @@
+.anchor{
+   position:relative;
+   top:-50px;
+}
+
  .navbar-fixed-top {
    background-image: url("img/Galactic_halo_Sombrero_HST_H1.jpg");
    background-position: center top;
@@ -21,12 +26,10 @@
  .home {
    color: lime;
    text-align: center;
-   margin-top: 50px;
    width: 100%;
-   height: 905px;
-   padding-top: 30px;
+   height: 955px;
    position: relative;
-   background: url("img/20160201_090120.jpg") center 0px no-repeat;
+   background: url("img/20160201_090120.jpg") center 50px no-repeat;
    background-size: 100%;
  }
  hr.nameDivider {
@@ -57,14 +60,54 @@
    color: white;
  }
  .about {
-   position: relative;
+   margin-top: -50px;
+   padding-top: 80px;
+   color: lime;
+   text-align: center;
    width: 100%;
-   height: 905px;
-   margin-left 50px;
+   height: 955px;
+   position: relative;
+   background: url("img/CarbonFiber.png") 0px 50px no-repeat;
+   background-size: 100%;
  }
  .bio {
-   text-align: justify;
+   color: lime;
+   text-align: center;
    position: relative;
    top: 50%;
    transform: translateY(-50%);
+   padding-left: 50px !important;
+
+ }
+ .aboutPicture {
+   padding: 0 0 0 0 !important;
+   width: 300px !important;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 15%;
+   border-radius: 15% !important;
+   border: 2px solid #fff;
+ }
+
+.portfolio{
+  margin-top: -50px;
+  padding-top: 80px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 955px;
+  text-align: center;
+}
+
+.portRow1{
+  margin-top: 0px !important;
+}
+
+ .portfolioObj{
+   text-align: center;
+   margin-top: 50px;
+ }
+
+ .portItemName{
+   margin-top: -50px;
  }
