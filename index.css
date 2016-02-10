@@ -29,7 +29,7 @@
    width: 100%;
    height: 955px;
    position: relative;
-   background: url("img/20160201_090120.jpg") center 50px no-repeat;
+   background: url("img/20160201_090120.jpg") center 0px no-repeat;
    background-size: 100%;
  }
  hr.nameDivider {
@@ -60,14 +60,12 @@
    color: white;
  }
  .about {
-   margin-top: -50px;
-   padding-top: 80px;
    color: lime;
    text-align: center;
    width: 100%;
    height: 955px;
    position: relative;
-   background: url("img/CarbonFiber.png") 0px 50px no-repeat;
+   background: url("img/CarbonFiber.png") 0px 0px no-repeat;
    background-size: 100%;
  }
  .bio {
@@ -90,8 +88,6 @@
  }
 
 .portfolio{
-  margin-top: -50px;
-  padding-top: 80px;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
