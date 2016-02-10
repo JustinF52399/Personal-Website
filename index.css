@@ -72,15 +72,14 @@
    top: 50%;
    transform: translateY(-50%);
    padding-left: 50px !important;
+
  }
  .aboutPicture {
+   padding: 0 0 0 0 !important;
    width: 300px !important;
-   position: relative;
    top: 50%;
    transform: translateY(-50%);
    left: 15%;
-   transform: translateZ(-15%);
-   border-style: solid !important;
-   border-radius: 30% !important;
-   border-color: white !important;
+   border-radius: 15% !important;
+   border: 2px solid #fff;
  }
