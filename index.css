@@ -61,11 +61,7 @@
  }
  .about {
    margin-top: -50px;
-<<<<<<< HEAD
    padding-top: 80px;
-=======
-   padding: 80px;
->>>>>>> refs/remotes/origin/gh-pages
    color: lime;
    text-align: center;
    width: 100%;
@@ -95,11 +91,7 @@
 
 .portfolio{
   margin-top: -50px;
-<<<<<<< HEAD
   padding-top: 80px;
-=======
-  padding: 80px;
->>>>>>> refs/remotes/origin/gh-pages
   position: relative;
   top: 50%;
   transform: translateY(-50%);
