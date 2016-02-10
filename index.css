@@ -19,7 +19,6 @@
    font-size: 24px;
  }
  .home {
-   padding-top: 30px;
    color: lime;
    text-align: center;
    width: 100%;
@@ -57,7 +56,11 @@
  }
  .about {
    margin-top: -50px;
+<<<<<<< HEAD
    padding: 50px;
+=======
+   padding-top: 80px;
+>>>>>>> refs/remotes/origin/master
    color: lime;
    text-align: center;
    width: 100%;
@@ -87,7 +90,11 @@
 
 .portfolio{
   margin-top: -50px;
+<<<<<<< HEAD
   padding: 50px;
+=======
+  padding-top: 80px;
+>>>>>>> refs/remotes/origin/master
   position: relative;
   top: 50%;
   transform: translateY(-50%);
