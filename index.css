@@ -1,4 +1,9 @@
-.navbar-fixed-top {
+.anchor{
+   position:relative;
+   top:-50px;
+}
+
+ .navbar-fixed-top {
    background-image: url("img/Galactic_halo_Sombrero_HST_H1.jpg");
    background-position: center top;
    background-size: cover;
@@ -57,7 +62,10 @@
  }
  .about {
    margin-top: -50px;
+<<<<<<< HEAD
    padding: 50px;
+=======
+>>>>>>> refs/remotes/origin/master
    padding-top: 80px;
    color: lime;
    text-align: center;
@@ -88,7 +96,10 @@
 
 .portfolio{
   margin-top: -50px;
+<<<<<<< HEAD
   padding: 50px;
+=======
+>>>>>>> refs/remotes/origin/master
   padding-top: 80px;
   position: relative;
   top: 50%;
