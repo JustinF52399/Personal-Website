@@ -1,118 +1,101 @@
-.anchor{
-   position:relative;
-   top:-50px;
+.navbar-fixed-top {
+  background-image: url("img/Galactic_halo_Sombrero_HST_H1.jpg");
+  background-position: center top;
+  background-size: cover;
 }
-
- .navbar-fixed-top {
-   background-image: url("img/Galactic_halo_Sombrero_HST_H1.jpg");
-   background-position: center top;
-   background-size: cover;
- }
- .headerName {
-   color: lime;
-   font-size: 30px;
-   font-family: Shadows Into Light;
-   font-weight: bold;
- }
- .headerOptions a {
-   color: lime !important;
-   font-size: 16px;
-   font-weight: bold;
- }
- .headerOptions a:hover {
-   background-color: rgba(0, 0, 0, 0.5) !important;
-   font-size: 24px;
- }
- .home {
-   padding-top: 30px;
-   color: lime;
-   text-align: center;
-   width: 100%;
-   height: 955px;
-   position: relative;
-   background: url("img/20160201_090120.jpg") center 50px no-repeat;
-   background-size: 100%;
- }
- hr.nameDivider {
-   color: black;
-   background-color: black;
-   margin-top: -8px;
-   height: 3px;
-   max-width: 600px;
- }
- .description {
-   margin-top: -20px;
-   font-size: 28px;
- }
- .basicDesc {
-   margin-top: 25%;
- }
- .homeButtons {
-   border: 1px, black;
-   background-color: rgba(0, 255, 0, .65);
-   transform: scale(1.0);
-   transition: 0.2s;
-   color: black;
- }
- .homeButtons:hover {
-   background-color: rgba(0, 255, 0, 1);
-   transform: scale(1.1);
-   transition: 0.2s;
-   color: white;
- }
- .about {
-   margin-top: -50px;
-<<<<<<< HEAD
-   padding: 50px;
-=======
->>>>>>> refs/remotes/origin/master
-   padding-top: 80px;
-   color: lime;
-   text-align: center;
-   width: 100%;
-   height: 955px;
-   position: relative;
-   background: url("img/CarbonFiber.png") 0px 50px no-repeat;
-   background-size: 100%;
- }
- .bio {
-   color: lime;
-   text-align: center;
-   position: relative;
-   top: 50%;
-   transform: translateY(-50%);
-   padding-left: 50px !important;
-
- }
- .aboutPicture {
-   padding: 0 0 0 0 !important;
-   width: 300px !important;
-   top: 50%;
-   transform: translateY(-50%);
-   left: 15%;
-   border-radius: 15% !important;
-   border: 2px solid #fff;
- }
-
-.portfolio{
+.headerName {
+  color: lime;
+  font-size: 30px;
+  font-family: Shadows Into Light;
+  font-weight: bold;
+}
+.headerOptions a {
+  color: lime !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+.headerOptions a:hover {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  font-size: 24px;
+}
+.home {
+  padding-top: 30px;
+  color: lime;
+  text-align: center;
+  width: 100%;
+  height: 955px;
+  position: relative;
+  background: url("img/20160201_090120.jpg") center 50px no-repeat;
+  background-size: 100%;
+}
+hr.nameDivider {
+  color: black;
+  background-color: black;
+  margin-top: -8px;
+  height: 3px;
+  max-width: 600px;
+}
+.description {
+  margin-top: -20px;
+  font-size: 28px;
+}
+.basicDesc {
+  margin-top: 25%;
+}
+.homeButtons {
+  border: 1px, black;
+  background-color: rgba(0, 255, 0, .65);
+  transform: scale(1.0);
+  transition: 0.2s;
+  color: black;
+}
+.homeButtons:hover {
+  background-color: rgba(0, 255, 0, 1);
+  transform: scale(1.1);
+  transition: 0.2s;
+  color: white;
+}
+.about {
   margin-top: -50px;
   padding-top: 80px;
+  color: lime;
+  text-align: center;
+  width: 100%;
+  height: 955px;
+  position: relative;
+  background: url("img/CarbonFiber.png") 0px 50px no-repeat;
+  background-size: 100%;
+}
+.bio {
+  color: lime;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 50px !important;
+}
+.aboutPicture {
+  padding: 0 0 0 0 !important;
+  width: 300px !important;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15%;
+  border-radius: 15% !important;
+  border: 2px solid #fff;
+}
+.portfolio {
+  margin-top: -50px;
+  padding-top: 50px;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   height: 955px;
   text-align: center;
 }
-
-.portRow1{
-  margin-top: 0px !important;
+.portfolioObj {
+  text-align: center;
+  margin-top: 30px;
 }
-
- .portfolioObj{
-   text-align: center;
-   margin-top: 50px;
- }
-
- .portItemName{
-   margin-top: -50px;
- }
+.portItemName {
+  margin-top: -50px;
+}
