@@ -105,15 +105,15 @@ hr.nameDivider {
   margin-top: -50px;
 }
 .contact {
-  color: white;
-  height: 100px;
-  position: relative;
-  padding-top: 30px;
+  height: 0px;
   text-align: center;
   background-color: black;
   background-size: 100%;
+  position: relative;
+  margin-top: -65px;
 }
 
-#emailMe{
-  margin-top: -10px;
+.contact ul{
+  background-color: black;
+  padding: 5px;
 }
