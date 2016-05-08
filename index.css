@@ -92,7 +92,8 @@ hr.nameDivider {
   transform: translateY(-50%);
   height: 955px;
   text-align: center;
-  background: url("img/McLaren-650s.jpg") 0px 50px no-repeat;
+  background: url("img/McLaren-650S.jpg") 0px 50px no-repeat;
+  background-color:
   background-size: 100%;
 }
 .portfolioObj {
