@@ -3,23 +3,22 @@
   background-position: center top;
   background-size: cover;
 }
-.headerName {
+#headerName {
   color: lime;
   font-size: 30px;
   font-family: Shadows Into Light;
   font-weight: bold;
 }
-.headerOptions a {
-  color: lime !important;
+#headerOptions a{
+  color: lime;
   font-size: 16px;
   font-weight: bold;
 }
-.headerOptions a:hover {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+#headerOptions a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 24px;
 }
 .home {
-  padding-top: 30px;
   color: lime;
   text-align: center;
   width: 100%;
@@ -36,7 +35,6 @@ hr.nameDivider {
   max-width: 600px;
 }
 .description {
-  margin-top: -20px;
   font-size: 28px;
 }
 .basicDesc {
@@ -56,14 +54,11 @@ hr.nameDivider {
   color: white;
 }
 .about {
-  margin-top: -50px;
-  padding-top: 80px;
   color: lime;
+  height: 100%;
   text-align: center;
-  width: 100%;
-  height: 955px;
   position: relative;
-  background: url("img/CarbonFiber.png") 0px 50px no-repeat;
+  background: url("img/CarbonFiber.png") no-repeat;
   background-size: 100%;
 }
 .bio {
@@ -72,28 +67,22 @@ hr.nameDivider {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  padding-left: 50px !important;
 }
-.aboutPicture {
-  padding: 0 0 0 0 !important;
-  width: 300px !important;
+.about img{
+  margin: 0px;
+  padding: 0px;
+  left: 15%;
   top: 50%;
   transform: translateY(-50%);
-  left: 15%;
-  border-radius: 15% !important;
+  width: 500px;
   border: 2px solid #fff;
 }
 .portfolio {
+  padding-top: 10%;
   color: lime;
-  margin-top: -50px;
-  padding-top: 80px;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 955px;
+  height: 100%;
   text-align: center;
-  background: url("img/McLaren-650S.jpg") 0px 50px no-repeat;
-  background-color:
+  background: url("img/McLaren-650S.jpg") no-repeat;
   background-size: 100%;
 }
 .portfolioObj {
