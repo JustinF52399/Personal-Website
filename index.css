@@ -1,96 +1,122 @@
+ul {
+    list-style-type: none;
+}
 .navbar-fixed-top {
-  background-image: url("img/Galactic_halo_Sombrero_HST_H1.jpg");
-  background-position: center top;
-  background-size: cover;
+    background-image: url("img/Galactic_halo_Sombrero_HST_H1.jpg");
+    background-position: center top;
+    background-size: cover;
 }
-#headerName {
-  color: lime;
-  font-size: 30px;
-  font-family: Shadows Into Light;
-  font-weight: bold;
+#headerCategory {
+    color: lime;
+    text-shadow: 1px 1px 0 black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
-#headerOptions a{
-  color: lime;
-  font-size: 16px;
-  font-weight: bold;
+#headerOptions a {
+    color: lime;
+    font-size: 16px;
+    font-weight: bold;
 }
 #headerOptions a:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
 }
 .home {
-  color: lime;
-  text-align: center;
-  width: 100%;
-  height: 955px;
-  position: relative;
-  background: url("img/20160201_090120.jpg") center 0px no-repeat;
-  background-size: 100%;
+    color: lime;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url("img/20160201_090120.jpg") center 0px no-repeat;
+    background-size: 100%;
 }
 hr.nameDivider {
-  color: black;
-  background-color: black;
-  margin-top: -8px;
-  height: 3px;
-  max-width: 600px;
+    color: black;
+    background-color: black;
+    margin-top: -8px;
+    height: 3px;
+    max-width: 600px;
 }
 .description {
-  font-size: 28px;
+    font-size: 28px;
 }
 .basicDesc {
-  margin-top: 25%;
+    margin-top: 25%;
 }
 .smButtons {
-  border: 1px, black;
-  background-color: rgba(0, 255, 0, .65);
-  transform: scale(1.0);
-  transition: 0.2s;
-  color: black;
+    border: 1px, black;
+    background-color: rgba(0, 255, 0, .65);
+    transform: scale(1.0);
+    transition: 0.2s;
+    color: black;
 }
 .smButtons:hover {
-  background-color: rgba(0, 255, 0, 1);
-  transform: scale(1.1);
-  transition: 0.2s;
-  color: white;
+    background-color: rgba(0, 255, 0, 1);
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: white;
 }
 .about {
-  color: lime;
-  height: 100%;
-  text-align: center;
-  position: relative;
-  background: url("img/CarbonFiber.png") no-repeat;
-  background-size: 100%;
+    color: lime;
+    text-shadow: 1px 1px 0 black;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    background: url("img/GT-R_R35_NISMO.jpg") center center no-repeat;
+    background-size: 100%;
 }
 .bio {
-  color: lime;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.about img{
-  margin: 0px;
-  padding: 0px;
-  left: 15%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 500px;
-  border: 2px solid #fff;
+.about img {
+    margin: 0px;
+    padding: 0px;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+    border: 2px solid #fff;
 }
 .portfolio {
-  padding-top: 50px;
-  color: lime;
-  height: 95%;
-  text-align: center;
-  background: url("img/McLaren-650S.jpg") 0px -100px no-repeat;
-  background-size: cover;
-  margin-bottom: -50px;
+    padding-top: 50px;
+    position: relative;
+    color: lime;
+    height: 100%;
+    text-align: center;
+    background: url("img/McLaren-650S.jpg") 0px -100px no-repeat;
+    background-size: cover;
+    margin-bottom: -50px;
 }
 .portfolioObj {
-  text-align: center;
-  margin-top: 30px;
+    text-align: center;
+    margin-top: 30px;
 }
 .portItemName {
-  color: black;
-  margin-top: -50px;
+    color: black;
+    margin-top: -50px;
+}
+.contact {
+    padding-top: 200px;
+    color: lime;
+    position: relative;
+    background: url("img/CBR1000RR.jpeg") 0px -100px no-repeat;
+    height: 100%;
+    background-size: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contact h3 {
+    text-shadow: 1px 1px 0 black;
+}
+.contact .col-xs-5 {
+    margin-top: 5%;
+}
+.contact li {
+    margin: 30px 0;
+    color: black;
 }
