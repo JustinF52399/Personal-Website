@@ -58,12 +58,16 @@ hr.nameDivider {
     color: white;
 }
 .about {
+    font-size: 18px;
     color: lime;
-    text-shadow: 1px 1px 0 black;
+    text-shadow: 1px 1px 0 black,
+    -1px 1px 0 black,
+    1px -1px 0 black,
+    -1px -1px 0 black;
     height: 100%;
     text-align: center;
     position: relative;
-    background: url("img/GT-R_R35_NISMO.jpg") center center no-repeat;
+    background: url("img/GT-R_R35.jpg") center center no-repeat;
     background-size: 100%;
 }
 .bio {
