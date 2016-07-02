@@ -22,8 +22,14 @@ ul {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 24px;
 }
+#homeCover {
+  text-shadow: 1px 1px 0 black,
+  -1px 1px 0 black,
+  1px -1px 0 black,
+  -1px -1px 0 black;
+}
 .home {
-    color: lime;
+    color: white;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -39,6 +45,7 @@ hr.nameDivider {
     max-width: 600px;
 }
 .description {
+  margin-top: -15px;
     font-size: 28px;
 }
 .basicDesc {
@@ -49,17 +56,16 @@ hr.nameDivider {
     background-color: rgba(0, 255, 0, .65);
     transform: scale(1.0);
     transition: 0.2s;
-    color: black;
+    color: white;
 }
 .smButtons:hover {
     background-color: rgba(0, 255, 0, 1);
     transform: scale(1.1);
     transition: 0.2s;
-    color: white;
 }
 .about {
     font-size: 18px;
-    color: lime;
+    color: white;
     text-shadow: 1px 1px 0 black,
     -1px 1px 0 black,
     1px -1px 0 black,
@@ -87,12 +93,18 @@ hr.nameDivider {
 }
 .portfolio {
     padding-top: 50px;
+    color: white;
     position: relative;
-    color: lime;
     height: 100%;
     text-align: center;
     background: url("img/McLaren-650S.jpg") 0px -100px no-repeat;
     background-size: cover;
+}
+#portCover{
+  text-shadow: 1px 1px 0 black,
+  -1px 1px 0 black,
+  1px -1px 0 black,
+  -1px -1px 0 black;
 }
 .portfolioObj {
     text-align: center;
@@ -104,7 +116,7 @@ hr.nameDivider {
 }
 .contact {
     padding-top: 200px;
-    color: lime;
+    color: white;
     position: relative;
     background: url("img/CBR1000RR.jpeg") 0px -100px no-repeat;
     height: 100%;
@@ -114,12 +126,18 @@ hr.nameDivider {
     transform: translateY(-50%);
 }
 .contact h3 {
-    text-shadow: 1px 1px 0 black;
+    text-shadow: 1px 1px 0 black,
+    -1px 1px 0 black,
+    1px -1px 0 black,
+    -1px -1px 0 black;
 }
 .contact .col-xs-5 {
     margin-top: 7%;
 }
 .contact li {
     margin: 30px 0;
-    color: black;
+}
+.contactButtons{
+  color: white;
+  background-color: #8A43B7;
 }
