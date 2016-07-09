@@ -92,6 +92,7 @@ hr.nameDivider {
     border: 2px solid #fff;
 }
 .portfolio {
+    padding-top: 5%;
     color: white;
     position: relative;
     height: 100%;
