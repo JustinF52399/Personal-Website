@@ -103,6 +103,7 @@ hr.nameDivider {
 }
 .portfolioObj img{
   max-width: 100%;
+  height: auto;
 }
 .portItemName{
     color: black;
