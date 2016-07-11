@@ -101,7 +101,10 @@ hr.nameDivider {
     text-align: center;
     margin-top: 30px;
 }
-.portItemName {
+.portfolioObj img{
+  max-width: 100%;
+}
+.portItemName{
     color: black;
     margin-top: -50px;
 }
