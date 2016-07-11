@@ -5,6 +5,7 @@ ul {
     background-image: url("img/Galactic_halo_Sombrero_HST_H1.jpg");
     background-position: center top;
     background-size: cover;
+    height: 50px;
 }
 #headerCategory {
     color: white;
@@ -26,12 +27,13 @@ ul {
     font-size: 24px;
 }
 .home {
+    margin-top: 50px;
     color: lime;
     text-align: center;
     width: 100%;
     height: 100%;
     position: relative;
-    background: url("img/20160201_090120.jpg") center 0px no-repeat;
+    background: url("img/20160201_090120.jpg") center -50px no-repeat fixed;
     background-size: cover;
 }
 hr.nameDivider {
@@ -94,7 +96,7 @@ hr.nameDivider {
     color: white;
     height: 100%;
     text-align: center;
-    background: url("img/McLaren-650S.jpg") center no-repeat;
+    background: url("img/McLaren-650S.jpg") center center no-repeat;
     background-size: cover;
 }
 .portfolioObj {
