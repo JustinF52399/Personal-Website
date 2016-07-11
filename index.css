@@ -69,7 +69,7 @@ hr.nameDivider {
     height: 100%;
     text-align: center;
     position: relative;
-    background: url("img/GT-R_R35.jpg") center center no-repeat;
+    background: url("img/GT-R_R35.jpg") center no-repeat;
     background-size: cover;
     font-size: 1.3em;
 }
@@ -94,26 +94,25 @@ hr.nameDivider {
     color: white;
     height: 100%;
     text-align: center;
-    background: url("img/McLaren-650S.jpg") 0px 0px no-repeat;
+    background: url("img/McLaren-650S.jpg") center no-repeat;
     background-size: cover;
 }
 .portfolioObj {
     text-align: center;
     margin-top: 30px;
 }
-.portfolioObj img{
-  max-width: 100%;
-  height: auto;
-}
 .portItemName{
     color: black;
     margin-top: -50px;
+}
+.portfolioObj img{
+  width: 100%;
 }
 .contact {
     padding-top: 10%;
     color: white;
     position: relative;
-    background: url("img/Ducati1299.jpg") no-repeat;
+    background: url("img/Ducati1299.jpg") center no-repeat;
     height: 100%;
     background-size: cover;
     text-align: center;
