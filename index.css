@@ -9,10 +9,7 @@ ul {
 }
 #headerCategory {
     color: white;
-    text-shadow: 1px 1px 0 black,
-    -1px 1px 0 black,
-    1px -1px 0 black,
-    -1px -1px 0 black;
+    text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -27,7 +24,6 @@ ul {
     font-size: 24px;
 }
 .home {
-
     color: lime;
     text-align: center;
     width: 100%;
@@ -64,10 +60,7 @@ hr.nameDivider {
 }
 .about {
     color: white;
-    text-shadow: 1px 1px 0 black,
-    -1px 1px 0 black,
-    1px -1px 0 black,
-    -1px -1px 0 black;
+    text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
     height: 100%;
     text-align: center;
     position: relative;
@@ -103,12 +96,12 @@ hr.nameDivider {
     text-align: center;
     margin-top: 30px;
 }
-.portItemName{
+.portItemName {
     color: black;
     margin-top: -50px;
 }
-.portfolioObj img{
-  width: 100%;
+.portfolioObj img {
+    width: 100%;
 }
 .contact {
     padding-top: 10%;
@@ -120,10 +113,7 @@ hr.nameDivider {
     text-align: center;
 }
 .contact h3 {
-  text-shadow: 1px 1px 0 black,
-  -1px 1px 0 black,
-  1px -1px 0 black,
-  -1px -1px 0 black;
+    text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
 }
 .contact .col-xs-5 {
     margin-top: 7%;
@@ -132,7 +122,7 @@ hr.nameDivider {
     margin: 30px 0;
     color: black;
 }
-.contactButtons{
-  color: #404040;
-  background-color: lime;
+.contactButtons {
+    color: #404040;
+    background-color: lime;
 }
