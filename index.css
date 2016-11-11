@@ -7,21 +7,21 @@ ul {
     background-size: cover;
     height: 50px;
 }
-#headerCategory {
+#navtitle {
     color: white;
     text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
 }
 #headerOptions a {
     color: lime;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
 }
 #headerOptions a:hover {
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: 24px;
+    font-size: 1em;
 }
 .home {
     color: lime;
@@ -40,7 +40,7 @@ hr.nameDivider {
     max-width: 600px;
 }
 .description {
-    font-size: 28px;
+    font-size: 1.25em;
 }
 .basicDesc {
     margin-top: 25%;
