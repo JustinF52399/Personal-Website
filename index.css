@@ -1,13 +1,16 @@
 ul {
     list-style-type: none;
 }
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
 .navbar-fixed-top {
-    background-image: url("img/Galactic_halo_Sombrero_HST_H1.jpg");
-    background-position: center top;
+    background: url("img/Galactic_halo_Sombrero_HST_H1.jpg") center top;
     background-size: cover;
     height: 50px;
 }
-#headerCategory {
+.headerCategory {
     color: white;
     text-shadow: 1px 1px 0 black, -1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
     font-size: 2em;
@@ -29,7 +32,7 @@ ul {
     width: 100%;
     height: 100%;
     position: relative;
-    background: url("img/20160201_090120.jpg") center 50px no-repeat fixed;
+    background: url("img/350Z.jpg") center -100px no-repeat fixed;
     background-size: cover;
 }
 hr.nameDivider {
@@ -80,7 +83,8 @@ hr.nameDivider {
     left: 15%;
     top: 50%;
     transform: translateY(-50%);
-    width: 30%;
+    height: 50%;
+    width: auto;
     border: 2px solid #fff;
 }
 .portfolio {
